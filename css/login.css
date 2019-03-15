@@ -1,0 +1,114 @@
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border: none;
+}
+
+main {
+    margin: 100px auto;
+    width: 980px;
+}
+
+.login {
+    width: 100%;
+}
+
+.login-left {
+    width: 520px;
+    float: left;
+}
+
+.login-left a {
+    display: inline-block;
+    margin: 10px 0;
+}
+
+.login-left .logo-bg {
+    width: 521px;
+    height: 310px;
+    background-image: url(../images/login_img.png);
+    background-size: 100%;
+}
+
+.login-right {
+    width: 450px;
+    float: right;
+    padding: 0 20px 0 20px;
+}
+
+.login-right h3 {
+    height: 65px;
+    line-height: 65px;
+    font-size: 22px;
+}
+
+.login-right form {
+    width: 100%;
+    height: 310px;
+}
+
+.login-right fieldset {
+    border-radius: 5px;
+    padding: 38px 40px;
+    border:1px solid #ccc;
+}
+
+.login-right div {
+    width: 290px;
+    margin: 0 auto;
+}
+
+.login-right input {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+    padding:0 0 0 30px;
+    font-size:16px;
+    color:#888;
+}
+
+.login-right .user-pwd input {
+    height: 35px;
+    width: 290px;
+    margin-bottom: 10px;
+}
+.login-right .check input {
+    width: 190px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.login-right .check span {
+    width: 95px;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    background: #ccc;
+    line-height: 32px;
+    letter-spacing: 0.6em;
+}
+.login-right .remember,.login-right .login-login{
+    margin-bottom:10px;
+}
+.login-right .remember label{
+    font-size:12px;
+    color:#777;
+}
+
+.login-right .login-login input{
+    width:290px;
+    height:40px;
+    background:rgb(236,101,23);
+    margin:0 auto;
+    font-size:14px;
+    color:white;
+    padding:0;
+}
+.login-right .forget-register{
+    font-size:12px;
+    text-align:right;
+}
+.login-right .forget-register a{
+    color:#777;
+}

@@ -1,0 +1,209 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+header,header a{
+    height:28px;
+    border-bottom:1px solid #eee;
+    font-size:12px;
+    line-height:28px;
+    color:#888;
+}
+
+.clearfix::after{
+    clear:both;
+    display:block;
+    visibility: hidden;
+    height: 0;
+    content:"";
+}
+.h-left{
+    float:left;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+a:hover{
+    color:rgb(236,101,23);
+}
+.h-left a{
+    padding:0 5px;
+}
+.top,.intro{
+    width:980px;
+    margin:0 auto;
+}
+ul{
+    list-style: none;
+}
+.top ul img{
+    vertical-align: -2px;
+    margin-right:5px;
+}
+.top ul,main nav ul{
+
+    float:right;
+}
+
+.top ul li,main nav ul li{
+    float:left;
+    padding:0 15px;
+}
+main{
+    padding:20px 0 0 0;
+}
+nav{
+    width:980px;
+    margin:0 auto;
+    height:52px;
+}
+main nav ul li{
+    padding:0 25px;
+    /* border:1px solid red; */
+}
+main .logo{
+    float:left;
+    width:150px;
+}
+.logo img{
+    width:100%;
+}
+nav ul li a{
+    display:inline-block;
+    height:47px;
+    line-height:47px;
+    font-size:14px;
+}
+nav ul li a:hover{
+    border-bottom:2px solid rgb(236,101,23);
+}
+.bg img{
+    width:100%;
+}
+
+
+.default{
+    color:rgb(236,101,23);
+    border-bottom:2px solid rgb(236,101,23);
+}
+
+h2,h3{
+    padding:5px 0;
+    font-weight: normal;
+}
+
+.intro .item{
+    width:490px;
+    float:left;
+    padding:20px 20px 0px 0;
+    position: relative;
+}
+
+.item .right{
+    display:inline-block;
+    width:380px;
+
+    position: absolute;
+    left:90px;
+    top:20px;
+    height:83px;
+    padding:5px;
+}
+
+.p2{
+    color:#444;
+}
+
+.buy-rent{
+    width:980px;
+    margin:80px auto;
+    position: relative;
+}
+.buy,.rent{
+    width:490px;
+    float:left;
+}
+.buy-rent .right{
+    width:200px;
+}
+.buy-rent .right,.buy-rent img,.buy-rent a{
+    float:left;
+    padding-left:40px;
+}
+.buy-rent a{
+    float:left;
+    padding:0;
+    text-align: center;
+}
+.buy a{
+    display:inline-block;
+    width:85px;
+    background:rgb(236,101,23);
+    height:30px;
+    line-height:30px;
+    margin:30px 10px;
+    color:white;
+}
+.rent a{
+    display:inline-block;
+    width:85px;
+    background:rgb(138,203,33);
+    height:30px;
+    line-height:30px;
+    margin:30px 10px;
+    color:white;
+}
+
+
+
+footer{
+    border-top:1px solid #444;
+    padding:50px 0 0 0;
+}
+.service{
+    width:980px;
+    margin:0 auto;
+}
+.service ul{
+    float:left;
+    font-size:18px;
+    color:#888;
+    width:240px;
+    padding:0 0 0 20px;
+}
+.service a{
+    color:#888;
+}
+.service a:hover{
+    color:rgb(236,101,23);
+}
+.service ul li{
+    font-size:12px;
+    line-height: 2;
+}
+.service ul li:nth-of-type(1){
+    margin-top:15px;
+}
+.contact .call1{
+    font-size: 12px;
+    margin-bottom:15px;
+}
+
+.foot{
+    background:#444;
+    font-size:12px;
+    height:80px;
+    text-align:center;
+    padding:20px 0;
+    color:#999;
+    margin-top:20px;
+}
+.foot .copyright a{
+    color:#999;
+}
+.foot .copyright a:hover{
+    color:rgb(236,101,23);
+    text-decoration:underline;
+}

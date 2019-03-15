@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="李先豪">
+    <title>小漫官网 - 登录页</title>
+    <link rel="stylesheet" href="css/mainpage.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <main>
+        <div class="register">
+            <div class="register-logo">
+                <img src="images/logo.png" alt="">
+            </div>
+            <form action="login.html" method="GET">
+                <fieldset>
+                    <h2>注册小漫账户<span>已注册用户，<a href="login.html">在此登录</a></span></h2>
+                    <div class="register-content">
+                        <div class="form-group1"><label for="num"><strong>*</strong> 手机号码:</label><input type="text" id="num" required><input class="getcheck" type="button" value="获取验证码"></div>
+                        <div class="form-group2"><label for="check"><strong>*</strong> 验证码:</label><input type="text" class="check" id="check" required></div>
+                        <div class="form-group3"><label for="pwd"><strong>*</strong> 密码:</label><input type="password" id="pwd" required></div>
+                        <div class="form-group1"><label for="confirm"><strong>*</strong> 确认密码:</label><input type="password" id="confirm" required></div>
+                        <div class="form-group4"><input type="checkbox" id="agree"><label for="agree" class="agree"><a href="#">同意<cite>《小漫服务协议》</cite></a></label></div>
+                        <div class="form-group5"><input type="submit" value="立即注册"></div>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+
+        <div class="foot">
+            <p>
+                <img src="images/logo_24.png" alt=""> 天津泰岳小漫科技有限公司
+            </p>
+            <p class="copyright">
+                <span>Copyright © 2017</span>
+                <a href="#">津ICP备14006601号</a>
+                <a href="#">
+                    <img src="images/tim.png" alt=""> 津公网安备 12011602000121号
+                </a>
+            </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
